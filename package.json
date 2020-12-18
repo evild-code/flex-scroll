@@ -1,10 +1,25 @@
 {
-  "name": "flex-scroll",
+  "name": "@grow-ui/flex-scroll",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Flex 布局中的项目自适应滚动",
+  "author": "ding.qiang",
+  "main": "lib/flex-scroll.umd.min.js",
+  "files": [
+    "dist",
+    "src/components",
+    "src/example"
+  ],
+  "keywords": [
+    "vue",
+    "flex",
+    "scroll",
+    "flex-scroll"
+  ],
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name flex-scroll --dest lib src/components/FlexScroll.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
