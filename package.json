@@ -6,7 +6,7 @@
   "author": "ding.qiang",
   "main": "lib/flex-scroll.umd.min.js",
   "files": [
-    "dist",
+    "lib",
     "src/components",
     "src/example"
   ],
